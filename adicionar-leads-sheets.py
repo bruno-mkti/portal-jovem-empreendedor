@@ -29,5 +29,5 @@ def main(pasta):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        sys.exit("Uso: python adicionar-leads-sheets.py portal-jovem-empreendedor")
+        sys.exit("Uso: python adicionar-leads-sheets.py CAMINHO_DA_PASTA")
     main(sys.argv[1])
